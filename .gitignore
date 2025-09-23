@@ -1,0 +1,13 @@
+# Ignore git local config
+/.git
+# Ignore node_modules
+/node_modules
+# Ignore python virtual env
+/.venv
+# Ignore python cache
+__pycache__/
+# Ignore python bytecode
+*.pyc
+*.pyo
+# Ignore models
+/models/
