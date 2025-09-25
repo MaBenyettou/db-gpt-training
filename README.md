@@ -80,7 +80,7 @@ Mount your **dataset** and an output folder for the final model:
 ```bash
 docker run --gpus all -it \
   -v $(pwd)/data:/workspace/data \
-  -v $(pwd)/models:/workspace/models \
+  -v $(pwd)/output:/workspace/output \
   sql-finetune bash scripts/run_all.sh
 ```
 

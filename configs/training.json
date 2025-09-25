@@ -1,11 +1,11 @@
 {
-    "base_model": "Qwen/Qwen2.5-Coder-3B-Instruct",
+    "base_model": "/workspace/models/Qwen2.5",
     "output_dir": "/workspace/output",
-    "per_device_train_batch_size": 2,
-    "gradient_accumulation_steps": 8,
+    "per_device_train_batch_size": 1,
+    "gradient_accumulation_steps": 16,
     "learning_rate": 2e-4,
     "num_train_epochs": 3,
     "logging_steps": 20,
     "save_steps": 500,
-    "max_seq_length": 2048
+    "max_seq_length": 512
 }
